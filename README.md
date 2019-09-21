@@ -1,5 +1,5 @@
 # Intelligent-identification-of-fabric-defects
-This project is a tianchi competition project. the website about this competition is : [2019广东工业智造创新大赛【赛场一】][2]
+This project is a tianchi competition project. The website about this competition is : [2019广东工业智造创新大赛【赛场一】][2]
 The project is based on [mmdetection][0] and the main structure of this project is : cascade_mask_rcnn_r50_fpn_1x. All of these code in based on Pytorch.
 The main purpose of this project is to realize the flaw identification of the fabric.
 
