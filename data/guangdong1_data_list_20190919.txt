@@ -1,0 +1,15 @@
+guangdong1_round1_train1_20190818.zip
+http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/231748/round1/guangdong1_round1_train1_20190818.zip
+md5:8169c65aa09b2f80725fc074870bbe54
+
+guangdong1_round1_testA_20190818.zip
+http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/231748/round1/guangdong1_round1_testA_20190818.zip
+md5:8b982a75b2ad2aefa78f812384306230
+
+guangdong1_round1_train2_20190828.zip
+http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/231748/round1/guangdong1_round1_train2_20190828.zip
+md5:bd9d59e9f651965f6097be184111f8fd
+
+guangdong1_round1_testB_20190919.zip
+http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/231748/round1/b/guangdong1_round1_testB_20190919.zip
+md5:08a5a137b2435e1e7c252e671c920035
