@@ -22,7 +22,7 @@ The main purpose of this project is to realize the flaw identification of the fa
 python Fabric2COCO.py
 python argumentation.py
 ```
-Run Fabric2COCO.py will creates an dataset like coco by transform the origin fabric dataset containing 5913 train image in ../data/coco/images/train/ and a json file in  ../data/coco/annotations/.
+Run Fabric2COCO.py will creates an dataset like coco by transform the origin fabric dataset containing 5913 train image in `../data/coco/images/train/` and a json file in  `../data/coco/annotations/`.
 Run argumentation will flip and rotate the new dataset and create a new dataset. This method is base on [a simple argumentation][1]
 
 After these operation, the structure of data will be:
