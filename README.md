@@ -28,7 +28,7 @@ python argumentation.py
 Run `Fabric2COCO.py` will creates an dataset like coco by transform the origin fabric dataset containing 5913 train image in `../data/coco/images/train/` and a json file in  `../data/coco/annotations/`.
 Run `argumentation.py` will flip and rotate the new dataset and create a arugumentation dataset. This method is base on [a simple argumentation][1]
 
-After these operation, the structure of data will be (after unzip all zip file):
+After these operations, the structure of data will be (after unzip all zip file):
 ```
 |–data
 |-- coco
