@@ -12,7 +12,10 @@ The main purpose of this project is to realize the flaw identification of the fa
   - tqdm 4.31.1
   - pandas 0.24.0
   - Pillow 5.3.0
-  - argparse 1.4 0
+  - argparse 1.4.0
+- CUDA 10.0
+- CUDNN 7.6.1
+  
 
   
 ## Prepare dataset 
