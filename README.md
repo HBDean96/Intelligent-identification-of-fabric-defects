@@ -1,6 +1,6 @@
 # Intelligent-identification-of-fabric-defects
 
-The project is based on [Cyanogenoid/vqa-counting][0] and the main structure of this project is : cascade_mask_rcnn_r50_fpn_1x. All of these code in based on Pytorch.
+The project is based on [mmdetection][0] and the main structure of this project is : cascade_mask_rcnn_r50_fpn_1x. All of these code in based on Pytorch.
 The main purpose of this project is to realize the flaw identification of the fabric.
 
 ## Dependencies
@@ -55,7 +55,6 @@ python train.py
 python test.py
 ``` 
 
-```
 
 [0]: https://github.com/open-mmlab/mmdetection
 [1]: https://tianchi.aliyun.com/notebook-ai/detail?postId=74575
