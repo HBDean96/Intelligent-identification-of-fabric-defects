@@ -6,7 +6,7 @@ The main purpose of this project is to realize the flaw identification of the fa
 ## Dependencies
 
 - Python 3.6
-  - torch > 1.1.0
+  - torch >= 1.1.0
   - torchvision 0.3
   - numpy 1.16.3
   - tqdm 4.31.1
@@ -22,10 +22,10 @@ The main purpose of this project is to realize the flaw identification of the fa
 python Fabric2COCO.py
 python argumentation.py
 ```
-Run Fabric2COCO.py will creates an dataset like coco by transform the origin fabric dataset containing 5913 train image in `../data/coco/images/train/` and a json file in  `../data/coco/annotations/`.
-Run argumentation will flip and rotate the new dataset and create a new dataset. This method is base on [a simple argumentation][1]
+Run `Fabric2COCO.py` will creates an dataset like coco by transform the origin fabric dataset containing 5913 train image in `../data/coco/images/train/` and a json file in  `../data/coco/annotations/`.
+Run `argumentation.py` will flip and rotate the new dataset and create a arugumentation dataset. This method is base on [a simple argumentation][1]
 
-After these operation, the structure of data will be:
+After these operation, the structure of data will be (after unzip all zip file):
 ```
 |–data
 |-- coco
@@ -50,7 +50,7 @@ To train the model you can run
 ```
 python train.py
 ```
-- To predict the test data(the defalut dataset is testB, if you want change the dataset, you can change the test_path in `test.py`)
+- To predict the test data(the defalut dataset is testB, if you want change the dataset, you can change the test_path in `test.py`) you can run
 ```
 python test.py
 ``` 
