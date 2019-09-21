@@ -1,6 +1,6 @@
 # Intelligent-identification-of-fabric-defects
 
-The project is based on [mmdetection][0] and the main structure of this project is : cascade_mask_rcnn_r50_fpn_1x. All of these code in based on Pytorch.
+The project is based on [Cyanogenoid/vqa-counting][0] and the main structure of this project is : cascade_mask_rcnn_r50_fpn_1x. All of these code in based on Pytorch.
 The main purpose of this project is to realize the flaw identification of the fabric.
 
 ## Dependencies
@@ -45,12 +45,12 @@ After these operation, the structure of data will be:
 
 ## How to Train
 
-The structure of network and most of the parameters is under config.py.
+The structure of network and most of the parameters is under `config.py`.
 To train the model you can run
 ```
 python train.py
 ```
-- To predict the test data(the defalut dataset is testB, if you want change the dataset, you can change the test_path in test.py)
+- To predict the test data(the defalut dataset is testB, if you want change the dataset, you can change the test_path in `test.py`)
 ```
 python test.py
 ``` 
